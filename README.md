@@ -121,7 +121,7 @@ Open http://localhost:3000 in your browser.
 
 ### Project Structure
 
-businessfinder-pro/
+### businessfinder-pro/
 ├── frontend/
 │   ├── components/
 │   │   ├── Dashboard/
@@ -150,38 +150,39 @@ businessfinder-pro/
 │   └── DEPLOYMENT.md
 ├── README.md
 └── LICENSE
+
 ### Environment Variables
 ### Backend
 
-Variable	Description	Required
-GOOGLE_PLACES_API_KEY	Google Places API key	Yes
-DATABASE_URL	Database connection string	Yes
-SECRET_KEY	Application secret key	Yes
+### Variable	Description	Required
+ GOOGLE_PLACES_API_KEY	Google Places API key	Yes
+ DATABASE_URL	Database connection string	Yes
+ SECRET_KEY	Application secret key	Yes
 
 ### Frontend
-Variable	Description	Required
-NEXT_PUBLIC_API_URL	Backend API base URL	Yes
-NEXT_PUBLIC_MAP_TILE_URL	Map tile server URL	No
+ Variable	Description	Required
+ NEXT_PUBLIC_API_URL	Backend API base URL	Yes
+ NEXT_PUBLIC_MAP_TILE_URL	Map tile server URL	No
 
 ### API Reference
-GET /api/places/search
+ GET /api/places/search
 
 ### Lead Scoring Methodology
-Each business receives an automated score calculated from six weighted factors:
+ Each business receives an automated score calculated from six weighted factors:
 
 ### Factor	Weight	Criteria
 
-Sales Opportunity	35%	Missing website, incomplete listing, low digital presence
-Contactability	20%	Availability of phone, email, or social media profiles
-Recognition	15%	Brand signals, operating hours completeness, address accuracy
-Category Fit	12%	Market demand level for the specific business category
-Proximity	8%	Distance from the search center point
-Rating Bonus	10%	Verified Google rating of 4.0 or higher
+ Sales Opportunity	35%	Missing website, incomplete listing, low digital presence
+ Contactability	20%	Availability of phone, email, or social media profiles
+ Recognition	15%	Brand signals, operating hours completeness, address accuracy
+ Category Fit	12%	Market demand level for the specific business category
+ Proximity	8%	Distance from the search center point
+ Rating Bonus	10%	Verified Google rating of 4.0 or higher
 
 ### Score Tiers:
 
-Tier	Range	Label	Recommended Action
-Hot	70–100	Green	Contact within 24 hours
-Medium	40–69	Yellow	Add to outreach pipeline
-Low	0–39	Red	Monitor for changes
+ Tier	Range	Label	Recommended Action
+ Hot	70–100	Green	Contact within 24 hours
+ Medium	40–69	Yellow	Add to outreach pipeline
+ Low	0–39	Red	Monitor for changes
 
