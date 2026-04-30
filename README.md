@@ -119,9 +119,9 @@ cp .env.example .env.local
 npm run dev
 Open http://localhost:3000 in your browser.
 
-### Project Structure
+## Project Structure
 
-### businessfinder-pro/
+# businessfinder-pro/
 ├── frontend/
 │   ├── components/
 │   │   ├── Dashboard/
